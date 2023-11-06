@@ -1,8 +1,5 @@
 # Retail-data-analysis
 
-**Context**
-
-The Challenge - One challenge of modeling retail data is the need to make decisions based on limited history. Holidays and select major events come once a year, and so does the chance to see how strategic decisions impacted the bottom line. In addition, markdowns are known to affect sales – the challenge is to predict which departments will be affected and to what extent.
 
 **Content**
 
@@ -35,10 +32,12 @@ Date - the week
 Weekly_Sales -  sales for the given department in the given store
 IsHoliday - whether the week is a special holiday week
 
-**The Task**
+**Problem Statement**
 
-Predict the department-wide sales for each store for the following year
+Predict the department-wide sales for each store for the following year to support making strategic decisions:
+ + Enhance resource allocation to meet customer demand effectively.
+ + Optimize sales planning by factoring in holidays, seasons, and special events to maximize profitability
 
-Model the effects of markdowns on holiday weeks
+**Metholody**
 
-Provide recommended actions based on the insights drawn, with prioritization placed on largest business impact
+Train multiple models using linear and tree-based to choose the most appropriate models.
