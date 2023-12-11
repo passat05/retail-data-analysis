@@ -3,16 +3,15 @@
 
 **Content**
 
-You are provided with historical sales data for 45 stores located in different regions - each store contains a number of departments. The company also runs several promotional markdown events throughout the year. These markdowns precede prominent holidays, the four largest of which are the Super Bowl, Labor Day, Thanksgiving, and Christmas. The weeks including these holidays are weighted five times higher in the evaluation than non-holiday weeks.
+One of the leading retail stores in the US, Walmart, would like to predict the sales and demand accurately. There are sales data available for 45 stores of Walmart located in different regions - each store contains a number of departments. The company also runs several promotional markdown events throughout the year. These markdowns precede prominent holidays, the four largest of which are the Super Bowl, Labor Day, Thanksgiving, and Christmas. The weeks including these holidays are weighted five times higher in the evaluation than non-holiday weeks.
 
-Within the Excel Sheet, there are 3 Tabs – Stores, Features and Sales
+Within Folder Data, there are 3 files – Stores, Features and Sales
 
 **Stores**
 
 Anonymized information about the 45 stores, indicating the type and size of store
 
 **Features**
-
 Contains additional data related to the store, department, and regional activity for the given dates.
 
 Store - the store number  
@@ -22,8 +21,9 @@ Fuel_Price - cost of fuel in the region
 MarkDown1-5 - anonymized data related to promotional markdowns. MarkDown data is only available after Nov 2011, and is not available for all stores all the time. Any missing value is marked with an NA  
 CPI - the consumer price index  
 Unemployment - the unemployment rate  
-IsHoliday - whether the week is a special holiday week  
-Sales  
+IsHoliday - whether the week is a special holiday week
+
+**Sales**  
 Historical sales data, which covers to 2010-02-05 to 2012-11-01. Within this tab you will find the following fields:
 
 Store - the store number  
@@ -40,4 +40,6 @@ Predict the department-wide sales for each store for the following year to suppo
 
 **Methodolody**
 
-Train multiple models using linear and tree-based to choose the most appropriate models.
+Approaching modeling through two types of models: statistical models and machine learning models.
+ + Statistical models: ARIMA, Prophet
+ + Machine learning models: Linear and tree-based models
